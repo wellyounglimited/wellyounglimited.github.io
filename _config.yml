@@ -91,12 +91,12 @@ friends: [
     #     href: "http://su.gallery/"
     # },{
         title: "来哥的指引",
-        href: "daiweilai.github.io"
+        href: "https://daiweilai.github.io"
     },{
         title: "刚仔的秘密",
         href: "http://qianduan.guru/"
     },{
         title: "学成的味道",
-        href: "www.zhangxuecheng.cn"
+        href: "http://www.zhangxuecheng.cn"
     }
 ]

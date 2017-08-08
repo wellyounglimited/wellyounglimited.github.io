@@ -1,3 +1,18 @@
+---
+layout:     post
+title:      "如何使用markdown在简书写博客"
+subtitle:   "hello Jianshu"
+date:       2015-09-20 12:00:00
+author:     "wellyoung"
+header-img: "img/in-post/post-eleme-pwa/eleme-at-io.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 简书
+    - 工具
+    - 博客
+---
+
 [简书](jianshu.com)
 ![先来一个耿直的微笑](http://upload-images.jianshu.io/upload_images/2484273-fb6fd032ee11dc03.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 <br />

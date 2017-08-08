@@ -13,7 +13,7 @@ baseurl: ""                             # for example, '/blog' if your blog host
 # SNS settings
 RSS: false
 weibo_username:     huxpro
-zhihu_username:     陈维杨
+zhihu_username:     chen-wei-yang-76
 github_username:    wellyounglimited
 twitter_username:   huxpro
 #facebook_username:  huxpro
@@ -96,7 +96,7 @@ friends: [
         title: "刚仔的秘密",
         href: "http://qianduan.guru/"
     },{
-        title: "学成的味道",
+        title: "裤子的味道",
         href: "http://www.zhangxuecheng.cn"
     }
 ]

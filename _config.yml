@@ -4,7 +4,7 @@ SEOTitle: 陈维杨的博客 | wellyoung Blog
 header-img: img/home-bg.jpg
 email: chen1018937957@gmail.com
 description: "关于前端与设计、黑客与画家 | wellyoung，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @wellyoung 的个人博客，与你一起发现更大的世界。"
-keyword: "wellyoung, 鬼栈, iOS, Hux Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品 "
+keyword: "wellyoung, iOS, Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品 "
 url: "https://huangxuan.me"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -15,7 +15,7 @@ RSS: false
 weibo_username:     huxpro
 zhihu_username:     wellyoungChan
 github_username:    wellyounglimited
-twitter_username:   huxpro
+twitter_username:   chen1018937957
 instagram_username: wellyoung
 #facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx

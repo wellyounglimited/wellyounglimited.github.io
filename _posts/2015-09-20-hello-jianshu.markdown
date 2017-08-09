@@ -4,7 +4,7 @@ title:      "如何使用markdown在简书写博客"
 subtitle:   "hello Jianshu"
 date:       2015-09-20 12:00:00
 author:     "wellyoung"
-header-img: "img/in-post/post-eleme-pwa/eleme-at-io.jpg"
+header-img: "img/home-bg-o.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

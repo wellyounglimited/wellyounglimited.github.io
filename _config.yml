@@ -5,18 +5,18 @@ header-img: img/home-bg.jpg
 email: chen1018937957@gmail.com
 description: "关于前端与设计、黑客与画家 | wellyoung，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @wellyoung 的个人博客，与你一起发现更大的世界。"
 keyword: "wellyoung, iOS, Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品 "
-url: "https://huangxuan.me"              # your host, for absolute URL
+url: "https://wellyounglimited.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-#weibo_username:     huxpro
+weibo_username:     3297385655
 zhihu_username:     wellyoungChan
 github_username:    wellyounglimited
 twitter_username:   chen1018937957
-instagram_username: wellyoungchan6942
+#instagram_username: wellyoungchan6942
 #facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx
 # linkedin_username:  wellyoung-chan-79a153143

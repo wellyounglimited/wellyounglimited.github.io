@@ -2,7 +2,7 @@
 layout:     post
 title:      "vs+opencv人脸识别"
 subtitle:   "人脸识别"
-date:       2015-09-20 12:00:00
+date:       2016-04-20 12:00:00
 author:     "wellyoung"
 header-img: "img/home-bg-face.jpg"
 header-mask: 0.3
@@ -19,11 +19,14 @@ tags:
 曾经有一些问题是关于如何确认本人的笑话，派出所要求一个小伙证明就是本人，证明你妈是你妈。。这种奇葩问题，但是许多陌生场合也有这种尴尬，你如果没有带证件，警察无法看到你的照片，如何确认你就是XX就是之前经常出现的执法矛盾；如果一个人把身份证弄丢了，外面风雪交加，如何给这类人办理酒店入住手续？
 
 在AI技术炙手可热的今天，人脸识别作为确认用户身份的一项技术，从苹果舍弃指纹识别采用人脸识别技术可以发现，人脸识别技术也得到了新的发展。人脸识别的技术实现方式有很多种，本文对Visual Studio配合opencv这种实现方式进行简要概述。
+
 ##一、环境搭建
+
 ###1.Windows10 + vs2015专业版 + OpenCV
 - Visual Studio的软件自行百度下载,值得一提的是请针对下载的版本再搜索一次密钥，不然的话只能试用一个月哦。
 - OpenCV可进入[官网](https://opencv.org/)直接下载，或想使用[历史版本](https://opencv.org/releases.html)，安装方式直接解压。
 ![选择Windows包.png](https://upload-images.jianshu.io/upload_images/2484273-851168ae2816bf88.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ###2.环境变量
 - 快捷键win+e 选择此电脑(计算机)
 ![右键属性](https://upload-images.jianshu.io/upload_images/2484273-93bdf35a1615b67f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -34,6 +37,7 @@ E:\Program Files\opencv\build\x64\vc15\bin
 ![添加环境变量](https://upload-images.jianshu.io/upload_images/2484273-be9b68d6a8ac40ab.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 <br>
+
 ###3.打开vs建立一个项目
 ![新建项目](https://upload-images.jianshu.io/upload_images/2484273-12a95b8413f70148.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -41,6 +45,7 @@ E:\Program Files\opencv\build\x64\vc15\bin
 ![新建项.png](https://upload-images.jianshu.io/upload_images/2484273-43da7f7ef2e38867.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![main.cpp.png](https://upload-images.jianshu.io/upload_images/2484273-cd3878b7fec63b72.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ###4.在vs里添加opencv进去
 点击视图，在视图下找到属性管理器，点击打开
 ![视图](https://upload-images.jianshu.io/upload_images/2484273-b40dc943b5ef1c44.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -64,6 +69,7 @@ opencv_world341d.lib  （如果你是3.4.0就改为opencv_world340d.lib以此类
 假如要添加Release模式（正式上线）的，将d去掉即可 
 即opencv_world341.lib
 ![添加lib](https://upload-images.jianshu.io/upload_images/2484273-cb01cd28edca35e6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ###4.测试环境是否搭建成功
 
 ```
@@ -106,6 +112,7 @@ int main()
 ![勾选Microsoft符号服务器](https://upload-images.jianshu.io/upload_images/2484273-2fce0af4e333ebe4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 这是程序正常运行的结果，可以看出右边腐蚀后的图片与原图有何区别吗？
 ![图片对比](https://upload-images.jianshu.io/upload_images/2484273-a2a3ff6d6c574a0f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ###5.人脸识别项目
 把刚刚的测试代码删掉注入人脸识别代码
 

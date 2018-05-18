@@ -20,14 +20,14 @@ tags:
 
 在AI技术炙手可热的今天，人脸识别作为确认用户身份的一项技术，从苹果舍弃指纹识别采用人脸识别技术可以发现，人脸识别技术也得到了新的发展。人脸识别的技术实现方式有很多种，本文对Visual Studio配合opencv这种实现方式进行简要概述。
 
-##一、环境搭建
+## 一、环境搭建
 
-###1.Windows10 + vs2015专业版 + OpenCV
+### 1.Windows10 + vs2015专业版 + OpenCV
 - Visual Studio的软件自行百度下载,值得一提的是请针对下载的版本再搜索一次密钥，不然的话只能试用一个月哦。
 - OpenCV可进入[官网](https://opencv.org/)直接下载，或想使用[历史版本](https://opencv.org/releases.html)，安装方式直接解压。
 ![选择Windows包.png](https://upload-images.jianshu.io/upload_images/2484273-851168ae2816bf88.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-###2.环境变量
+### 2.环境变量
 - 快捷键win+e 选择此电脑(计算机)
 ![右键属性](https://upload-images.jianshu.io/upload_images/2484273-93bdf35a1615b67f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - 右键属性->高级系统设置->环境变量->系统变量->找到Path->在变量值中添加相应路径,我的路径是（请根据自己文件路径修改） 
@@ -38,7 +38,7 @@ E:\Program Files\opencv\build\x64\vc15\bin
 
 <br>
 
-###3.打开vs建立一个项目
+### 3.打开vs建立一个项目
 ![新建项目](https://upload-images.jianshu.io/upload_images/2484273-12a95b8413f70148.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![新建项目.png](https://upload-images.jianshu.io/upload_images/2484273-10f44750a554ea70.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -46,7 +46,7 @@ E:\Program Files\opencv\build\x64\vc15\bin
 
 ![main.cpp.png](https://upload-images.jianshu.io/upload_images/2484273-cd3878b7fec63b72.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-###4.在vs里添加opencv进去
+### 4.在vs里添加opencv进去
 点击视图，在视图下找到属性管理器，点击打开
 ![视图](https://upload-images.jianshu.io/upload_images/2484273-b40dc943b5ef1c44.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 然后便会有一个属性管理器的窗口了，接下来点开工程文件test，下边会有一个Debug|x64的文件夹，点开，下有名为Microsoft.Cpp.x64.user的文件，右键属性 
@@ -70,7 +70,7 @@ opencv_world341d.lib  （如果你是3.4.0就改为opencv_world340d.lib以此类
 即opencv_world341.lib
 ![添加lib](https://upload-images.jianshu.io/upload_images/2484273-cb01cd28edca35e6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-###4.测试环境是否搭建成功
+### 5.测试环境是否搭建成功
 
 ```
  #include<opencv2\opencv.hpp>
@@ -113,7 +113,7 @@ int main()
 这是程序正常运行的结果，可以看出右边腐蚀后的图片与原图有何区别吗？
 ![图片对比](https://upload-images.jianshu.io/upload_images/2484273-a2a3ff6d6c574a0f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-###5.人脸识别项目
+### 6.人脸识别项目
 把刚刚的测试代码删掉注入人脸识别代码
 
 ```

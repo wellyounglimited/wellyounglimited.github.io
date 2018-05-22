@@ -62,7 +62,7 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+#ga_domain: huangxuan.me
 
 
 
@@ -101,8 +101,8 @@ friends: [
         href: "http://www.zhangxuecheng.cn"
     }
     ,{
-        title: "狗屎",
-        href: "http://www.zhangxuecheng.cn"
+        title: "小富不即安",
+        href: "http://littlerich.top/"
     }
     
 ]

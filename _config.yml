@@ -96,11 +96,16 @@ friends: [
     },{
         title: "刚仔的秘密",
         href: "http://blog.wangie.cn"
-    },{
+    },
+    {
         title: "裤子的味道",
         href: "http://www.zhangxuecheng.cn"
-    }
-    ,{
+    },
+    {
+        title: "一只安全狗",
+        href: "http://kongdewei.cn/"
+    },
+    {
         title: "小富不即安",
         href: "http://littlerich.top/"
     }

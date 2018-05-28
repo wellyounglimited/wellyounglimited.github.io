@@ -4,6 +4,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
+                    
                     {% if site.RSS %}
                     <li>
                         <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
@@ -14,6 +15,7 @@
                         </a>
                     </li>
                     {% endif %}
+
                     {% if site.twitter_username %}
                     <li>
                         <a href="https://twitter.com/{{ site.twitter_username }}">
@@ -68,6 +70,7 @@
                         </a>
                     </li>
                     {% endif %}
+
                     {% if site.linkedin_username %}
                     <li>
                         <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">

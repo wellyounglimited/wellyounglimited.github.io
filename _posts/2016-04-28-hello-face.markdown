@@ -253,3 +253,7 @@ int main() {
 }
 ```
 ![人脸识别结果](https://upload-images.jianshu.io/upload_images/2484273-9e85d69d178300b5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+换一张图也许就是另外一回事了
+
+![图片样本不好](https://upload-images.jianshu.io/upload_images/2484273-a5e876141b34983c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

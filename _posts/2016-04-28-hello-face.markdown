@@ -4,7 +4,7 @@ title:      "vs+opencv人脸识别"
 subtitle:   "人脸识别"
 date:       2016-04-20 12:00:00
 author:     "wellyoung"
-header-img: "img/home-bg-face.jpg"
+header-img: "img/post-bg-face.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

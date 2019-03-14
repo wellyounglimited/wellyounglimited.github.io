@@ -1,7 +1,7 @@
 > Yet another man.
 
 
-Hi, I am Wellyoung Chan, a software engineer & a designer. Hanging out [Wellyoung blog](https://wellyounglimited.github.io)、[zhihu](https://www.zhihu.com/people/wellyoungChan/pins/posts)、[HUPU](https://my.hupu.com/170828285000869)、[Github](https://github.com/wellyounglimited) sometimes.
+Hi, I am Wellyoung Chan, a software engineer & a designer. Hanging out [A站](http://www.acfun.cn)、[zhihu](https://www.zhihu.com/people/wellyoungChan/pins/posts)、[HUPU](https://my.hupu.com/170828285000869)、[Github](https://github.com/wellyounglimited) sometimes.
 
 I studied Network Enginnering Art and graduated from [Southwest Minzu University](http://english.swun.edu.cn/) by 2015, and will study Network security at it in 2017.
 

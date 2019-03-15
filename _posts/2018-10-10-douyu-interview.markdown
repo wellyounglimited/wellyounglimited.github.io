@@ -5,7 +5,7 @@ title:      "斗鱼面经"
 subtitle:   "面试"
 date:       2018-10-10 12:00:00
 author:     "wellyoung"
-header-img: "img/home-bg-geek.jpg"
+header-img: "img/home-bg-douyu.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

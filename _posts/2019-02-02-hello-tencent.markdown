@@ -3,7 +3,7 @@
 layout:     post
 title:      "鹅厂实习"
 subtitle:   "实习"
-date:       2018-10-10 12:00:00
+date:       2019-02-02 12:00:00
 author:     "wellyoung"
 header-img: "img/home-bg-tencent.jpg"
 header-mask: 0.3

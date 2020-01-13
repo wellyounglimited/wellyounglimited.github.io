@@ -1,7 +1,7 @@
 > 水能载舟，  
 > 亦可赛艇。
 
-Hey，我是陈维杨，多出没于[A站](http://www.acfun.cn)（老ACer）、[虎扑](https://my.hupu.com/170828285000869)（老JR）、[知乎](https://www.zhihu.com/people/wellyoungChan/pins/posts)（分享你刚编的故事）、[微薄](https://weibo.com/u/3297385655?is_all=1)、[GitHub](https://github.com/wellyounglimited) 等地带，绝招抬杠。
+Hey，我是Wellyoung，多出没于[A站](http://www.acfun.cn)（老ACer）、[虎扑](https://my.hupu.com/170828285000869)（老JR）、[知乎](https://www.zhihu.com/people/wellyoungChan/pins/posts)（分享你刚编的故事）、[微薄](https://weibo.com/u/3297385655?is_all=1)、[GitHub](https://github.com/wellyounglimited) 等地带，绝招抬杠。
 
 职业是iOS Developer，同时也会一点h5、Android，目前有在研究机器学习，图像识别等。
 

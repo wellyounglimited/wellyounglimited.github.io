@@ -14,14 +14,14 @@ tags:
 ---
 
 [简书](jianshu.com)
-![先来一个耿直的微笑](http://upload-images.jianshu.io/upload_images/2484273-fb6fd032ee11dc03.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![先来一个耿直的微笑](https://upload-images.jianshu.io/upload_images/2484273-fb6fd032ee11dc03.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 <br />
 
     对于天朝程序员来说，简书简直就是中文版的[GitHub](www.github.com),无广告版的[CSDN](http://www.csdn.net),再也不用为搭建和维护一个博客而绞尽脑汁了，而这一切你只需要拥有一个[简书账号](http://www.jianshu.com/sign_up)就可以了。这不是软文，也不是安利,这只是一个小帅程序员的心声，足以说明她的好。
 <br>
 
    这时候就有小盆与跳出来啦，你说她好她就好？证据呢？干货呢？
-![不服气的小盆与](http://upload-images.jianshu.io/upload_images/2484273-1afd138c94096d72.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![不服气的小盆与](https://upload-images.jianshu.io/upload_images/2484273-1afd138c94096d72.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 <br />
 

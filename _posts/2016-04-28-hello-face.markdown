@@ -14,7 +14,7 @@ tags:
 ---
 
 
-![人脸识别](http://upload-images.jianshu.io/upload_images/2484273-0691290095754281?imageMogr2/auto-orient/strip)
+![人脸识别](../img/in-post/post-hello-face/post-face-gift.gif)
 
 曾经有一些问题是关于如何确认本人的笑话，派出所要求一个小伙证明就是本人，证明你妈是你妈。。这种奇葩问题，但是许多陌生场合也有这种尴尬，你如果没有带证件，警察无法看到你的照片，如何确认你就是XX就是之前经常出现的执法矛盾；如果一个人把身份证弄丢了，外面风雪交加，如何给这类人办理酒店入住手续？
 
@@ -25,50 +25,50 @@ tags:
 ### 1.Windows10 + vs2015专业版 + OpenCV
 - Visual Studio的软件自行百度下载,值得一提的是请针对下载的版本再搜索一次密钥，不然的话只能试用一个月哦。
 - OpenCV可进入[官网](https://opencv.org/)直接下载，或想使用[历史版本](https://opencv.org/releases.html)，安装方式直接解压。
-![选择Windows包.png](https://upload-images.jianshu.io/upload_images/2484273-851168ae2816bf88.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![选择Windows包.png](../img/in-post/post-hello-face/post-face-sh1.png)
 
 ### 2.环境变量
 - 快捷键win+e 选择此电脑(计算机)
-![右键属性](https://upload-images.jianshu.io/upload_images/2484273-93bdf35a1615b67f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![右键属性](../img/in-post/post-hello-face/post-face-sh2.png)
 - 右键属性->高级系统设置->环境变量->系统变量->找到Path->在变量值中添加相应路径,我的路径是（请根据自己文件路径修改） 
 E:\Program Files\opencv\build\x64\vc14\bin 
 E:\Program Files\opencv\build\x64\vc15\bin
 这次更新发现一直存在的x86文件夹已经删除了，也就是说不支持vs2015的x86编译了，这个问题之后也会强调。另外如果你是vs2013请选择vc12文件夹，如果你是其他更老的vs版本，建议选择其他版本的opencv。 
-![添加环境变量](https://upload-images.jianshu.io/upload_images/2484273-be9b68d6a8ac40ab.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![添加环境变量](../img/in-post/post-hello-face/post-face-sh3.png)
 
 <br>
 
 ### 3.打开vs建立一个项目
-![新建项目](https://upload-images.jianshu.io/upload_images/2484273-12a95b8413f70148.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![新建项目](../img/in-post/post-hello-face/post-face-sh4.png)
 
-![新建项目.png](https://upload-images.jianshu.io/upload_images/2484273-10f44750a554ea70.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![新建项.png](https://upload-images.jianshu.io/upload_images/2484273-43da7f7ef2e38867.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![新建项目.png](../img/in-post/post-hello-face/post-face-sh5.png)
+![新建项.png](../img/in-post/post-hello-face/post-face-sh6.png)
 
-![main.cpp.png](https://upload-images.jianshu.io/upload_images/2484273-cd3878b7fec63b72.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![main.cpp.png](../img/in-post/post-hello-face/post-face-sh7.png)
 
 ### 4.在vs里添加opencv进去
 点击视图，在视图下找到属性管理器，点击打开
-![视图](https://upload-images.jianshu.io/upload_images/2484273-b40dc943b5ef1c44.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![视图](../img/in-post/post-hello-face/post-face-sh8.png)
 然后便会有一个属性管理器的窗口了，接下来点开工程文件test，下边会有一个Debug|x64的文件夹，点开，下有名为Microsoft.Cpp.x64.user的文件，右键属性 
-![属性管理器](https://upload-images.jianshu.io/upload_images/2484273-178de8a44db57e30.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![属性管理器](../img/in-post/post-hello-face/post-face-sh9.png)
 然后选择通用属性下的VC++目录，右边会有包含目录和库目录，点击包含目录，添加以下三条路径，其实这些都是刚才OpenCV相关解压文件所在的目录
 E:\Program Files\opencv\build\include
 E:\Program Files\opencv\build\include\opencv
 E:\Program Files\opencv\build\include\opencv2
 这三条路径要依据自己解压OpenCV的路径进行修改
-![编辑包含目录](https://upload-images.jianshu.io/upload_images/2484273-eaea6c167b8d4bd8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![编辑包含目录](../img/in-post/post-hello-face/post-face-sh10.png)
 
-![自己的路径.png](https://upload-images.jianshu.io/upload_images/2484273-26c00f9fba0bafba.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![自己的路径.png](../img/in-post/post-hello-face/post-face-sh11.png)
 再点击库目录添加下面一条路径
 E:\Program Files\opencv\build\x64\vc14\lib
-![库目录点击编辑](https://upload-images.jianshu.io/upload_images/2484273-cee526b054c05ec9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![库目录添加lib](https://upload-images.jianshu.io/upload_images/2484273-33f5550e8bc209c5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![库目录点击编辑](../img/in-post/post-hello-face/post-face-sh12.png)
+![库目录添加lib](../img/in-post/post-hello-face/post-face-sh13.png)
 点击链接器，选择输入，会在右侧看到附加依赖项，添加下面文件
 opencv_world341d.lib  （如果你是3.4.0就改为opencv_world340d.lib以此类推）
 说明：这里小编添加的是Debug模式（测试）的，会看到文件的结尾有d， 
 假如要添加Release模式（正式上线）的，将d去掉即可 
 即opencv_world341.lib
-![添加lib](https://upload-images.jianshu.io/upload_images/2484273-cb01cd28edca35e6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![添加lib](../img/in-post/post-hello-face/post-face-sh14.png)
 
 ### 5.测试环境是否搭建成功
 
@@ -91,11 +91,11 @@ int main()
 }
 ```
 按F5或则点击本地Windows调试器运行程序，你会发现报错，需要在debug模式下选择x64，因为我们现在的pc进本都是64位的，x84是32位系统下的
-![x64](https://upload-images.jianshu.io/upload_images/2484273-2ecd291023e3e8bc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![x64](../img/in-post/post-hello-face/post-face-sh15.png)
 测试图片的路径
-![图片路径](https://upload-images.jianshu.io/upload_images/2484273-dfd0167c4590049d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![图片路径](../img/in-post/post-hello-face/post-face-sh16.png)
 喝杯咖啡让程序自己下载
-![第一次运行会加载很多库](https://upload-images.jianshu.io/upload_images/2484273-5cf3939a55c668f9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![第一次运行会加载很多库](../img/in-post/post-hello-face/post-face-sh17.png)
 如果加载不成功可进行以下方式进行调试
 1、点调试。
 
@@ -108,10 +108,10 @@ int main()
 5、把微软符号服务器勾。
 
 6、运行的时候等一下。
-![启用源服务器支持](https://upload-images.jianshu.io/upload_images/2484273-fec24e0c841c5f93.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![勾选Microsoft符号服务器](https://upload-images.jianshu.io/upload_images/2484273-2fce0af4e333ebe4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![启用源服务器支持](../img/in-post/post-hello-face/post-face-sh18.png)
+![勾选Microsoft符号服务器](../img/in-post/post-hello-face/post-face-sh19.png)
 这是程序正常运行的结果，可以看出右边腐蚀后的图片与原图有何区别吗？
-![图片对比](https://upload-images.jianshu.io/upload_images/2484273-a2a3ff6d6c574a0f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![图片对比](../img/in-post/post-hello-face/post-face-sh20.png)
 
 ### 6.人脸识别项目
 把刚刚的测试代码删掉注入人脸识别代码
@@ -252,8 +252,8 @@ int main() {
 	return 0;
 }
 ```
-![人脸识别结果](https://upload-images.jianshu.io/upload_images/2484273-9e85d69d178300b5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![人脸识别结果](../img/in-post/post-hello-face/post-face-sh21.png)
 
 换一张图也许就是另外一回事了
 
-![图片样本不好](https://upload-images.jianshu.io/upload_images/2484273-a5e876141b34983c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![图片样本不好](../img/in-post/post-hello-face/post-face-sh22.png)

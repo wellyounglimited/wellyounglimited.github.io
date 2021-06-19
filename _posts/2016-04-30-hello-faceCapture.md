@@ -14,7 +14,7 @@ tags:
 ---
 
 
-![人脸动态识别](http://upload-images.jianshu.io/upload_images/2484273-6ef51c75477b139a.gif?imageMogr2/auto-orient/strip)
+![人脸动态识别](../img/in-post/post-hello-faceCapture/post-faceCapture-gif.gif)
 
 上节我们讲了vs+OpenCV的配置以及人脸静态识别，这次我们讲讲人脸动态识别，因为在实际应用场景中人脸动态识别（通过摄像头捕捉实时画面）是较常用的。
 
@@ -155,4 +155,4 @@ int c=waitKey(100);
 ### 6.拓展
 - 用摄像头捕捉到的视频流可以实现人脸动态识别，那如果换成一段录好的视频是否可以实现呢
 
-![人脸动态识别](https://upload-images.jianshu.io/upload_images/2484273-f87301bde86719dc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![人脸动态识别](../img/in-post/post-hello-faceCapture/post-faceCapture-me.png)

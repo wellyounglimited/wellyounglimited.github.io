@@ -24,9 +24,9 @@ tags:
 ## 2.RN到底是web还是原生
 这么弱智的问题当时居然被考到了<br>
 随便打开一个乱七糟八的Demo看看层级关系吧
-![页面层级](https://upload-images.jianshu.io/upload_images/2484273-08d79a24501e47e9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![页面层级](../img/in-post/post-hello-douyu/post-douyu-sh1.png)
 完了再看看文件目录结构吧，node_modules什么的可不是空的
-![里面有写是怎么把组件封装好的](https://upload-images.jianshu.io/upload_images/2484273-5f34b5d6e854f64f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![里面有写是怎么把组件封装好的](../img/in-post/post-hello-douyu/post-douyu-sh2.png)
 
 ## 3.js和原生是怎么交互的
 ## 4.点击事件从点击到事件结束发生了些什么

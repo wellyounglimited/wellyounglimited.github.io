@@ -14,14 +14,14 @@ tags:
 ---
 
 [简书](jianshu.com)
-![先来一个耿直的微笑](https://upload-images.jianshu.io/upload_images/2484273-fb6fd032ee11dc03.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![先来一个耿直的微笑](../img/in-post/post-hello-jianshu/post-jianshu-caigou.jpeg)
 <br />
 
     对于天朝程序员来说，简书简直就是中文版的[GitHub](www.github.com),无广告版的[CSDN](http://www.csdn.net),再也不用为搭建和维护一个博客而绞尽脑汁了，而这一切你只需要拥有一个[简书账号](http://www.jianshu.com/sign_up)就可以了。这不是软文，也不是安利,这只是一个小帅程序员的心声，足以说明她的好。
 <br>
 
    这时候就有小盆与跳出来啦，你说她好她就好？证据呢？干货呢？
-![不服气的小盆与](https://upload-images.jianshu.io/upload_images/2484273-1afd138c94096d72.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![不服气的小盆与](../img/in-post/post-hello-jianshu/post-jianshu-kid.jpeg)
 
 <br />
 
@@ -51,25 +51,25 @@ tags:
 * 第一步在设置里面选择markdown作为常用编辑器
 
 
-![在设置里面选择markdown作为编辑器](http://upload-images.jianshu.io/upload_images/2484273-96866f7b709c4513.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![在设置里面选择markdown作为编辑器](../img/in-post/post-hello-jianshu/post-jianshu-screenshot1.png)
 <br />
 * 第二步如果你正在编辑文章就必须得删除当前文章重新打开才可以进入markdown编辑模式
 
 
-![必须先删除你之前用富文本编辑器编辑的文章](http://upload-images.jianshu.io/upload_images/2484273-28e29da81c6e7cd2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![必须先删除你之前用富文本编辑器编辑的文章](../img/in-post/post-hello-jianshu/post-jianshu-screenshot2.png)
 <br />
  * 第三部当然得设为预览模式才能玩啊
 
 
 
-![选中预览模式](http://upload-images.jianshu.io/upload_images/2484273-8cf8b178a8044c81.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![选中预览模式](../img/in-post/post-hello-jianshu/post-jianshu-screenshot3.png)
 
 <br />
 
 OK，准备工作搞定了就可以提笔写文章了，祝好运！
 
 如果想了解Markdown语法请 [摸我](http://www.jianshu.com/p/fbf150ed04da)
-![](http://upload-images.jianshu.io/upload_images/2484273-fb6fd032ee11dc03.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](../img/in-post/post-hello-jianshu/post-jianshu-caigou.jpeg)
 <br />
 
 那我们之间就以一段漂亮的代码结束吧！
